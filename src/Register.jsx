@@ -1,7 +1,7 @@
-import axios from "axios";
-import { useState } from "react";
 
-function Reg()
+import { useState } from "react";
+import axios from "axios";
+function Register()
 {
     const[data,setdata] = useState(
         {
@@ -35,4 +35,4 @@ function Reg()
         </>
     )
 }
-export default Reg
+export default Register;

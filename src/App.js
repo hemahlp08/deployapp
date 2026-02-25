@@ -1,18 +1,18 @@
 import { BrowserRouter } from "react-router-dom"
 import { Route } from "react-router-dom"
 import { Routes } from "react-router-dom"
-import Home from "./Home"
-import Register from "./Register"   
+import Home from "./home"
+import Reg from "./register"
 
 function App()
 {
   return(
-    <>  
+    <>
 
       <h1>I am App</h1>
       <BrowserRouter>
       <Routes>
-        <Route path = "/reg" element = {<Register/>}></Route>
+        <Route path = "/reg" element = {<Reg/>}></Route>
         <Route path = "/h" element = {<Home/>}></Route>
       </Routes>
       </BrowserRouter>
@@ -20,4 +20,4 @@ function App()
   )
 }
 
-export default App;
+export default App
